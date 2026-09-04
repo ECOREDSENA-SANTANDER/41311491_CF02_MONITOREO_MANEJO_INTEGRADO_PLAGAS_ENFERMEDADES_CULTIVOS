@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Prueba de conocimientos de gestión y análisis de la información para el monitoreo agrícola.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar los conocimientos adquiridos por el aprendiz sobre la gestión, organización, procesamiento, verificación, análisis e interpretación de la información obtenida durante el monitoreo agrícola, así como su capacidad para formular propuestas de mejora, documentar resultados y realizar seguimiento a las acciones implementadas en el manejo integrado de plagas, enfermedades y arvenses.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,477 +30,714 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'Durante un monitoreo agrícola se registran datos sobre presencia de plagas, ubicación, fecha y estado del cultivo. ¿Cuál es la principal finalidad de organizar esta información en registros y formatos?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
+              texto:
+                'Facilitar la captura ordenada y posterior consulta de la información obtenida.',
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
+                'Reemplazar las observaciones realizadas directamente en el cultivo.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Reducir la cantidad de variables que deben ser evaluadas durante el monitoreo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Evitar que la información sea utilizada en herramientas de análisis.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'En una base de datos para monitoreo agrícola, un registro representa principalmente:',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto:
+                'El nombre general de todas las variables utilizadas durante el monitoreo.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'El conjunto de programas utilizados para analizar la información.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto:
+                'Una observación completa relacionada con una unidad, punto o evento monitoreado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Una conclusión obtenida después de interpretar los resultados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+        },
+        {
+          id: 3,
+          texto:
+            'Un técnico desea comparar información obtenida en diferentes fechas de monitoreo. ¿Qué característica de la base de datos facilita principalmente esta actividad?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Que todos los registros contengan únicamente información numérica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Que los datos estén organizados bajo criterios uniformes y puedan actualizarse.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Que cada jornada de monitoreo utilice un formato completamente diferente.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto:
+                'Que los registros anteriores sean reemplazados por los datos más recientes.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'Durante el almacenamiento de información de monitoreo, se realiza una copia adicional de los archivos en otro dispositivo. Esta acción corresponde principalmente a:',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Normalización de los datos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Correlación de resultados.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'Validación de variables.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto: 'Respaldo de la información.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            'En un registro aparece que una medición fue realizada el 15 de junio, pero el archivo asociado indica que corresponde al 20 de junio. ¿Qué aspecto de la información debe revisarse principalmente?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'La representación gráfica de los datos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'La consistencia y trazabilidad de la información.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'El método utilizado para calcular el promedio.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'La simbología empleada para elaborar mapas.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'En un conjunto de datos de monitoreo se tienen los valores 5, 7, 8, 10 y 20 individuos de una plaga. ¿Cuál herramienta permite obtener un valor que represente el comportamiento promedio de estos datos?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'La media aritmética.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'La frecuencia acumulada.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'La desviación estándar.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'El rango de ubicación espacial.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Un aprendiz desea conocer qué tan separados están los valores de una variable respecto a su comportamiento general. ¿Qué medida estadística resulta especialmente útil para este propósito?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'La media.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto: 'La moda.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
+              texto: 'La desviación estándar.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'El porcentaje acumulado.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'En un lote agrícola se quiere conocer si la presencia de una plaga presenta diferentes niveles según la ubicación de los puntos monitoreados. ¿Qué herramienta resulta especialmente útil para analizar esta distribución espacial?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Un análisis geoestadístico.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Una tabla de frecuencias sin ubicación.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Un cálculo de promedio general del cultivo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un registro descriptivo sin coordenadas.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Un Sistema de Información Geográfica (SIG) puede ser utilizado durante el monitoreo agrícola principalmente para:',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Sustituir completamente la toma de datos en campo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Representar, organizar y analizar información relacionada con su ubicación espacial.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto:
+                'Determinar automáticamente todas las causas de una plaga.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar la necesidad de validar los datos obtenidos.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Durante el monitoreo se utilizan imágenes digitales del cultivo para identificar diferencias en la cobertura vegetal. ¿Cuál es una utilidad del procesamiento digital de imágenes?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Transformar automáticamente cualquier observación en una recomendación de manejo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Facilitar la extracción y análisis de información contenida en las imágenes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reemplazar todos los registros realizados mediante observación directa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Evitar la necesidad de conocer las características del cultivo.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Antes de utilizar una base de datos para realizar un análisis, se encuentra que algunos registros tienen valores que no corresponden con la variable evaluada. ¿Qué acción es más apropiada?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Verificar los registros y determinar el tratamiento adecuado de los datos inconsistentes.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Utilizar todos los registros y corregir las conclusiones posteriormente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Eliminar toda la base de datos y comenzar nuevamente el monitoreo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituir los valores diferentes por el promedio general sin revisar su origen.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'La depuración de datos dentro del monitoreo agrícola tiene como propósito principal:',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Reducir las variables utilizadas sin considerar los objetivos del monitoreo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Modificar los resultados para que coincidan con las expectativas del productor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Aumentar artificialmente el número de registros disponibles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Identificar y corregir problemas que puedan afectar la confiabilidad del análisis.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+        },
+        {
+          id: 13,
+          texto:
+            'Dos registros utilizan diferentes formas para expresar la misma unidad de medida, lo que dificulta su comparación. ¿Qué proceso puede ayudar a solucionar esta situación?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Normalización de los datos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Georreferenciación del lote.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Interpretación de resultados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Elaboración del plan de manejo.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'En un cultivo se analiza si el aumento de una variable productiva coincide con cambios en la presencia de una plaga. ¿Qué tipo de análisis puede ayudar a estudiar esta relación?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Análisis de correlación entre variables.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Respaldo de archivos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Clasificación de documentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Organización de carpetas digitales.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            'Los resultados del monitoreo muestran una concentración de plagas en determinados sectores del lote. Antes de establecer una acción de manejo, ¿qué debería hacer el aprendiz?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Aplicar una medida de control en todo el lote sin realizar otra consideración.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Interpretar los resultados teniendo en cuenta las condiciones del cultivo y los criterios técnicos establecidos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Descartar los puntos con mayor presencia para obtener un promedio más uniforme.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituir los resultados por información obtenida en otro cultivo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+        },
+        {
+          id: 16,
+          texto:
+            'A partir de los resultados del monitoreo se identifican problemas recurrentes en la sanidad del cultivo. ¿Cuál es una acción coherente con el manejo integrado?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Elaborar un plan de manejo que considere los problemas identificados, objetivos, actividades y seguimiento.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Aplicar inmediatamente cualquier producto disponible sin analizar la información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Suspender el monitoreo para evitar modificar los resultados obtenidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Registrar únicamente los problemas que presenten mayor importancia económica.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+        },
+        {
+          id: 17,
+          texto:
+            'Se detecta que durante varios monitoreos los formatos presentan campos incompletos y esto dificulta el análisis posterior. ¿Cuál propuesta representa una acción de mejora adecuada?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Mantener los formatos actuales y completar los campos faltantes al finalizar el año.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Diseñar o ajustar el formato, identificar la causa del problema y establecer un mecanismo para verificar su diligenciamiento.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Eliminar los registros incompletos sin analizar por qué se presentaron.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reemplazar todos los datos faltantes por valores estimados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es la principal finalidad de un manual de operación relacionado con un equipo o <em>software</em> utilizado en el monitoreo?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Proporcionar orientaciones para utilizar el equipo o herramienta de acuerdo con sus especificaciones y procedimientos establecidos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Sustituir la información obtenida directamente durante las actividades de campo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Definir por sí solo las decisiones de manejo que deben tomarse en el cultivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Eliminar la necesidad de realizar mantenimiento o verificación del equipo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+        },
+        {
+          id: 19,
+          texto:
+            'Un informe presenta los datos registrados, los resultados obtenidos y una explicación de su significado. ¿Por qué es importante diferenciar estos tres elementos?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Porque únicamente los datos originales pueden utilizarse para tomar decisiones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Porque los resultados deben presentarse sin relacionarlos con las condiciones del cultivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Porque la interpretación reemplaza la necesidad de conservar los datos originales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Porque permite distinguir entre la información observada, los productos del procesamiento y las conclusiones sustentadas.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+        },
+        {
+          id: 20,
+          texto:
+            'Después de implementar una propuesta de mejora en el proceso de monitoreo, se revisan los resultados obtenidos y se comparan con la situación inicial. Esta actividad corresponde principalmente a:',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Captura inicial de información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Estructuración de la base de datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Seguimiento y evaluación de la acción de mejora.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Clasificación inicial de las variables productivas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre la gestión, análisis y mejoramiento de la información para el manejo integrado de plagas, enfermedades y arvenses.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Se recomienda volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

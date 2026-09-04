@@ -3,104 +3,542 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
-  &-2
+    top: -170px
+    left: 0%
+    width: 30%
+  &-3
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
-
-
+    top: 0px
+    right: -10%
+    width: 30%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 95%
+    left: 15%
+    width: 30%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 40% 
+  //@media only screen and (min-width: 1024px)
+    margin-left: -40px
+  @media only screen and (max-width: 1023px)
+    width: 100%
+
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 .banner-principal__row .banner-principal__img 
-    width: 33%;
+  width: 33%
     
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
-
-.boton *, .boton--sm *,
-.barra-avance__boton--regresar span
-  color: $white !important
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
-.banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
-figcaption 
-    font-weight: normal !important
+  color: white !important   
+.titulo-principal.color-acento-contenido .titulo-principal__numero 
+  background-color: #345A52
 
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+figcaption
+  font-weight: normal
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 10% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+      margin-bottom: 10% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+
+.barra-avance__boton--regresar span 
+    color: white!important
+
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #97C364 !important
+
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #97C364
+  background-color: #DBDADA
+
+.cen
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
 
 
-/**************************************************************/
-/***CUSTOM STYLES***/
-/**************************************************************/
-.p-full-width
-  padding: 3rem 3.5rem!important;
-.bg-full-width
-  background-size: cover
+.bg1
+  background-color: #83E0CE
+  border-radius: 0px 83px 0px 0px
+  @media only screen and (max-width: 1023px)
+    border-radius: 0px 
+
+.bg2
+  background-color: #CDF3EB
+
+.bg3
+  background-color: #FCEEDC
+
+.bg4
+  background-color: #FCEEDC
+  min-height: 285px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  @media only screen and (max-width: 767px)
+    min-height: auto 
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    min-height: auto
+
+.bg44
+  background-color: #FCEEDC
+  min-height: 242px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  @media only screen and (max-width: 767px)
+    min-height: auto 
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    min-height: auto
+
+.bg5
+  background-color: #FCEEDC
+  border-radius: 25px
+
+.bg6
+  background-color: #E6F9F5
+  border-radius: 25px
+
+.bg7
+  background-color: #FCEEDC
+  min-height: 325px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  @media only screen and (max-width: 767px)
+    min-height: auto 
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    min-height: auto
+
+.bg8
+  background-color: #FCEEDC
+  min-height: 289px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  @media only screen and (max-width: 767px)
+    min-height: auto 
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    min-height: auto
+
+.bg9
+  background-color: #FCEEDC
+  min-height: 290px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  @media only screen and (max-width: 767px)
+    min-height: auto 
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    min-height: auto
+
+.bg10
+  background: url('../assets/curso/tema4/fd4.png')
+  background-size: 100% 100% 
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 0px
+.slyder__btn
+  background-color: #4E2F14
+  color: white
+//.slib
+  @media (min-width: 992px) 
+    .col-lg-8
+      flex: 0 0 auto
+      width: 50%
+  @media (min-width: 992px) 
+    .col-lg-4
+      flex: 0 0 auto
+      width: 50% 
+.slyder-b__img 
+  @media (min-width: 992px) 
+    display: block
+  @media (max-width: 768px) 
+    display: none
+
+.bg11
+  background-color: #F3F9FF
+  border-radius: 10px
+  border: solid 2px #B0C0D2
+
+.bg12
+  background-color: #EAF3E0
+  border-radius: 10px
+  border: solid 2px #97C364
+
+.bg13
+  background-color: #FCEEDC
+  border-radius: 10px
+  border: solid 2px #EFAB51
+
+.bg14
+  background-color: #FFFAD1
+  border-radius: 10px
+  border: solid 2px #FFED65
+
+.bg15
+  background-color: #EDE9E7
+  border-radius: 10px
+  border: solid 2px #604420
+
+.bg16
+  background-color: #E6F9F5
+  border-radius: 10px
+  border: solid 2px #345A52
+
+.bloque-texto-g.color-primario
+  border-radius: 0px 83px 0px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 0px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 
+  .bloque-texto-g__texto 
+    position: relative
+    width: 64%
+    border-radius: 20px
+    @media only screen and (max-width: 767px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+
+.fa-check
+  content: url('../assets/curso/tema1/arb.svg')
+  position: relative
+  width: 1em  
+  height: 1em 
+  top: 0px !important
+
+.pasos-a__linea__esquina__linea 
+  border: 3px solid
+  width: 100%
+  position: relative
+  border-radius: 0px
+.pasos-a.color-primario .pasos-a__circle 
+  background-color: #345A52
+.pasos-a.color-primario .pasos-a__circle div 
+  color: white
+.pasos-a.color-primario .pasos-a__numero::after
+  border-left-color: #345A52
+.pasos-a.color-primario .pasos-a__linea .hor-line 
+  border-top-color: #345A52
+.pasos-a.color-primario .pasos-a__linea__esquina__linea 
+  border-color:#345A52
+@media only screen and (max-width: 767px)
+  .cel
+    display: none
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+  .cel
+    display: none
+
+.bloque-texto-g.color-secundario
+  border-radius: 83px 0px 0px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 0px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    border-radius: 0px 
+  .bloque-texto-g__texto 
+    position: relative
+    width: 63%
+    border-radius: 63px 20px 20px 20px
+    @media only screen and (max-width: 767px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      position: relative
+      width: 100%
+      border-radius: 0px
+
+.tarjeta.color-primario.des
+  background-color: #F9DDB9
+  border-radius: 10px
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3rem
+  @media only screen and (max-width: 767px)
+    margin-inline: -1.5rem
+
+.tabs-c.color-primario .tabs-c__tab--active 
+  border-bottom-color: #EFAB51 !important
+  background-color: #FCEEDC
+  color: black !important
+  font-weight: 900
+.tabs-c__tab 
+  background-color: #E6F9F5
+  color: black
+  border-bottom: 6px solid #83E0CE
+.tabs-c.color-primario .tabs-c__tab--active:before 
+  border-top-color: #EFAB51
+.tabs-c__tab--active 
+  border-bottom: 6px solid !important
+.tabs-c__header 
+  margin-bottom: -7px
+.tabs-c__tab:after 
+  width: 2.5px
+  height: 25px
+  top: 50%
+  right: -2px
+  background-color: #83E0CE
+//.fd3
+  background: url('../assets/curso/portada/portada.png')
+  background-size: 100% 100%
   background-repeat: no-repeat
   background-position: bottom
-  margin-inline: -3.3rem
-.bg-fondo
-  &-1
-    //background-image: url(../assets/curso/bg/3.svg)
-.bg-color
-  &-1
-    background-color: $color-primario
+//.tabs-c
+  border-bottom: none
+
+.tarjeta-audio 
+  border: 3px solid
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: black
+.fst-italic 
+  font-style: normal !important
+.tarjeta.color-secundario i
+  color: #000
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto
+  color: black
+  font-style: normal !important
+.tarjeta.color-secundario * 
+  color: #000
+
+.tit
+  background-color: #83E0CE
+  border-radius: 50px 
+  width: fit-content
+  padding: 8px 30px 8px 50px
+  position: relative
+  display: inline-flex
+  align-items: center
+  margin-left: 15px
+  & 
+    h3
+      color: black
+.tit img
+  width: 50px
+  height: 50px
+  position: absolute
+  top: 34%
+  left: -18px 
+  transform: translateY(-50%)
+  object-fit: contain
+  z-index: 1
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    width: 55px
+    height: 55px
+    top: 40%
+  @media only screen and (max-width: 767px)
+    top: 48%
+    width: 55px
+    height: 55px
+
+.color-primario
+  .tabs-a__tab
+    padding: 12px 13px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.4
+    min-height: 40px 
+  @media (min-width: 1200px) 
+    .col-xl-3
+      flex: 0 0 auto
+      width: 45%
+    .col-xl-9
+      flex: 0 0 auto
+      width: 55%
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #CDF3EB
+  color: black !important
+.color-a
+  background-color: #E6F9F5
+.tabs-a.color-primario .tabs-a__tab__selected 
+  background-color: #345A52 !important
+  color: white !important
+.tabs-a.color-primario .tabs-a__tab__selected:before 
+  background-color: #345A52!important
+
+.tarjeta.color-acento-botones 
+  border-radius: 20px
+  background-color: #EAF3E0
+.tarjeta.color-acento-botones * 
+  color: black !important
+.enca:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #97C364
+  background-color: #D5E7C1
+
+.titulo-acciones
+  display: inline-block
+  max-width: 100%
+  box-sizing: border-box
+  padding-right: 20px
+  h4
+    margin-bottom: 10px
+  .barra-dots
+    display: flex
+    align-items: center
+    gap: 6px
+    width: calc(100% + 20px)
+    margin-right: -20px
+  .dot
+    width: 14px
+    height: 8px
+    border-radius: 50px
+    background-color: #A9D18E
+    flex-shrink: 0
+  .barra
+    flex-grow: 1
+    height: 8px
+    border-radius: 50px
+    background-color: #F4A94D
+
+.tarjeta.color-secun
+  border-radius: 20px
+  background-color: #FCEEDC
+.tarjeta.color-secun * 
+  color: black !important
+
+.tarjeta.color-acento-coo
+  border-radius: 20px
+  background-color: #E6F9F5
+
+.tig
+  font-size: 1.25em
 
 
+//////////////////////////////////////TABLAS////////////////////////////////////
+
+.tabla-a thead 
+  border-top: 6px solid #83E0CE
+  color: #12263F
+  background-color: #CDF3EB
+.tabla-a th
+  border-color: #CDF3EB
+.tabla-a
+  table
+    width: 100%
+    th, td
+      vertical-align: top
+      text-align: left
+      //border: none
+  tbody
+    td:first-child
+      font-weight: bold
+  table th
+    padding: 16px 15px
+  table td 
+    padding: 15px 15px
+
+.tabla-a.tab1
+  th:nth-child(1)
+    width: 25%
+  th:nth-child(2)
+    width: 75%
+
+.tabla-a.tab2
+  th:nth-child(1)
+    width: 20%
+  th:nth-child(2)
+    width: 40%
+  th:nth-child(3)
+    width: 40%
 
 
+////////////////////////TABLAS PEQUEÑAS//////////////////////////////
 
+.tabla-a.tabla-peq
+  overflow-x: visible !important
+  overflow: visible !important
+  @media (max-width: 991px)
+    overflow-x: auto !important
+    -webkit-overflow-scrolling: touch !important
+    display: block !important
+  table
+    min-width: auto !important
+    width: 100% !important
+    table-layout: auto !important
+    @media (max-width: 991px)
+      min-width: 500px !important 
 
+.tabla-a.tabla-peq.tabla1
+  table th
+    padding: 16px 15px
+  table td 
+    padding: 12px 15px
+  th:nth-child(1)
+    width: 50%
+  th:nth-child(2)
+    width: 50%
 
-/**************************************************************/
-/*Media Queries*/  
-/**************************************************************/
+.tabla-a.tabla-peq.tabla2
+  table th
+    padding: 16px 15px
+  table td 
+    padding: 12px 15px
+  th:nth-child(1)
+    width: 20%
+  th:nth-child(2)
+    width: 80%
 
-//// DESKTOP SMALL 1400--------------------------------------
-@media screen and (max-width: $bp-min-xxl)
-  .mb-cus
-    margin-bottom: 2em  !important 
-
-//// TABLET 992--------------------------------------
-@media screen and (max-width: $bp-max-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-    width: 90% !important
-
-  
- 
-  
-//// TABLET MINI 768--------------------------------------
-@media screen and (max-width: $bp-min-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-
-  
-
-//// MOBILE 576--------------------------------------
-@media screen and (max-width: $bp-min-sm)
-  .mb-cus
-    margin-bottom: 2em  !important
-
-  
- 
+.tabla-a.tabla-peq.tabla3
+  table th
+    padding: 16px 15px
+  table td 
+    padding: 12px 15px
+  th:nth-child(1)
+    width: 20%
+  th:nth-child(2)
+    width: 40%
+  th:nth-child(3)
+    width: 40%
