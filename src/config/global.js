@@ -273,27 +273,27 @@ export default {
   referencias: [
     {
       referencia:
-        'Gisbert Juárez, M. (2021). *Estadística descriptiva*. Probabilidad y Estadística.',
+        'Gisbert Juárez, M. (2021). Estadística descriptiva. Probabilidad y Estadística.',
       link: '',
     },
     {
       referencia:
-        'Instituto Geográfico Agustín Codazzi [IGAC]. (s. f.). *Guía gestión de metadatos*.',
+        'Instituto Geográfico Agustín Codazzi [IGAC]. (s. f.). Guía gestión de metadatos.',
       link: '',
     },
     {
       referencia:
-        'QuestionPro. (s. f.). *Estadística descriptiva: Qué es, objetivo, tipos y ejemplos*.',
+        'QuestionPro. (s. f.). Estadística descriptiva: Qué es, objetivo, tipos y ejemplos.',
       link: '',
     },
     {
       referencia:
-        'Santos, C. (2025, 4 de agosto). *La gestión de metadatos y su relación con el control de calidad*. Transformación Digital.',
+        'Santos, C. (2025, 4 de agosto). La gestión de metadatos y su relación con el control de calidad. Transformación Digital.',
       link: '',
     },
     {
       referencia:
-        'Unidad de Planificación Rural Agropecuaria [UPRA]. (s. f.). *Monitoreo de cultivos*. Gobierno de Colombia.',
+        'Unidad de Planificación Rural Agropecuaria [UPRA]. (s. f.). Monitoreo de cultivos. Gobierno de Colombia.',
       link: '',
     },
   ],
