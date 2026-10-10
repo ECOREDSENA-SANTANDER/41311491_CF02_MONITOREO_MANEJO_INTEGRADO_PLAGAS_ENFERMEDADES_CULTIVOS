@@ -283,7 +283,7 @@ export default {
     },
     {
       referencia:
-        'QuestionPro. (s. f.). Estadística descriptiva: Qué es, objetivo, tipos y ejemplos.',
+        'QuestionPro. (s. f.). Estadística descriptiva: qué es, objetivo, tipos y ejemplos.',
       link: '',
     },
     {
@@ -320,12 +320,12 @@ export default {
         {
           nombre: 'Andrés Javier Pacheco Wandurraga',
           cargo: 'Experto temático',
-          centro: 'Centro Agroturístico – Regional Santander',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora instruccional',
-          centro: 'Centro Agroturístico – Regional Santander',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },

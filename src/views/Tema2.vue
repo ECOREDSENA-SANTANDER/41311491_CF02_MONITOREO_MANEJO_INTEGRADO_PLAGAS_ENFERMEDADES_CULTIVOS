@@ -43,7 +43,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.mx-lg-4
-              h4.mb-3 Video: Estadística descriptiva, gráficas e informes estadísticos
+              h4.mb-3 Video. Estadística descriptiva, gráficas e informes estadísticos
               p.mb-0 Se presenta una descripción de la estadística descriptiva y la importancia que tiene en este momento para la toma de decisiones. 
             .col-sm-auto.pe-lg-5
               a.boton.color-acento-botones(href="https://youtu.be/v5UMlXHe2nM?si=vlFul61E00tnFAU5" target="_blank")

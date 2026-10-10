@@ -133,7 +133,7 @@
               tr
                 td Completa
                 td Debe contener la información necesaria para describir adecuadamente cada observación, evitando campos esenciales vacíos o registros incompletos.
-                td Permite disponer de datos suficientes para analizar las variables productivas y fitoosanitarias sin perder información relevante.
+                td Permite disponer de datos suficientes para analizar las variables productivas y fitosanitarias sin perder información relevante.
               tr
                 td Actualizable
                 td La estructura debe permitir incorporar nuevos registros y modificar información cuando se identifiquen errores o cambios debidamente justificados.

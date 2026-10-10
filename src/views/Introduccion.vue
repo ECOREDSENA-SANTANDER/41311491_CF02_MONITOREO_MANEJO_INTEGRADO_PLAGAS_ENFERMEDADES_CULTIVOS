@@ -13,7 +13,7 @@
         img(src='@/assets/curso/intro/1.png')
       .col-lg-7.ps-lg-0(data-aos="fade-left")
         .bg1.mb-0.p-4.p-lg-4
-          img.img-t.mb-4.mx-lg-4.mt-lg-3(src='@/assets/curso/intro/2.svg', alt='')
+          img.img-t.mb-4.mx-lg-4.mt-lg-3(src='@/assets/curso/intro/2.svg')
           p.mb-0.mx-lg-4.mb-lg-3 La gestión de la información obtenida durante el monitoreo agrícola constituye una etapa fundamental para transformar los datos registrados en información útil para el manejo integrado de plagas, enfermedades y arvenses. Este proceso comprende la organización de registros, formatos de captura y bases de datos, así como la aplicación de procedimientos para garantizar la trazabilidad, integridad y disponibilidad de la información. La adecuada estructuración y almacenamiento de los datos, junto con el manejo de metadatos, la verificación de la calidad de los registros, la organización de archivos y la realización de copias de respaldo, facilita su consulta, procesamiento y análisis. Asimismo, la validación, depuración y normalización permiten identificar y corregir registros incompletos, duplicados o inconsistentes, fortaleciendo la confiabilidad de las bases de datos y reduciendo posibles errores en la interpretación de los resultados.
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -30,7 +30,7 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+        figcaption Video. 
 </template>
 
 <script>

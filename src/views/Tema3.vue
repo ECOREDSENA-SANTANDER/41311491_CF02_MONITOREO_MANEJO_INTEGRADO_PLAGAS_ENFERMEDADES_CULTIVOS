@@ -61,7 +61,7 @@
             tbody
               tr
                 td Campos obligatorios
-                td Que la información esencial está registrada.
+                td Que la información esencial esté registrada.
                 td Que cada punto tenga fecha, ubicación y variable evaluada.
               tr
                 td Revisión de unidades
@@ -118,13 +118,13 @@
                 texto="Depuración y normalización de datos"
                 :audio="require_src('@/assets/actividad/audio/end-game-success.mp3')"
               ).mb-4
-                p.mb-0 Te invitamos a escuchar nuestro #[em pódcast] sobre #[b “La depuración y normalización de datos”], donde conocerás la importancia de revisar, organizar y estandarizar la información obtenida durante el monitoreo agrícola para garantizar registros confiables y facilitar su posterior análisis e interpretación.
+                p.mb-0 Se invita a escuchar el pódcast sobre #[b “La depuración y normalización de datos”], donde conocerás la importancia de revisar, organizar y estandarizar la información obtenida durante el monitoreo agrícola para garantizar registros confiables y facilitar su posterior análisis e interpretación.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 8.
-          | Controles de validación
+          | Depuración y normalización de datos
         .tabla-a.tab2
           table
             thead
@@ -135,23 +135,23 @@
             tbody
               tr
                 td Categorías
-                td "Alta", "alta", "ALTA", "Nivel alto"
+                td "Alta", "alta", "ALTA", "Nivel alto".
                 td Utilizar una categoría única: "Alta".
               tr
                 td Fechas
-                td 12/08/2026, 12-08-26, 12 de agosto de 2026
+                td 12/08/2026, 12-08-26, 12 de agosto de 2026.
                 td Establecer un solo formato de fecha.
               tr
                 td Unidades
-                td Hectáreas y metros cuadrados
+                td Hectáreas y metros cuadrados.
                 td Convertir los valores a una unidad común.
               tr
                 td Códigos
-                td Lote 1, L1, Lote-01
+                td Lote 1, L1, Lote-01.
                 td Definir un código único para cada lote.
               tr
                 td Nombres
-                td "Mosca blanca", "mosca blanca"
+                td "Mosca blanca", "mosca blanca".
                 td Establecer una forma uniforme de escritura.        
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -226,7 +226,7 @@
             thead
               tr
                 th Jornada
-                th Humedad del suelo (%)
+                th Humedad del suelo ( % )
                 th Presencia de enfermedad
             tbody
               tr
